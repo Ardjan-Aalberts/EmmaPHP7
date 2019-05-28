@@ -24,10 +24,10 @@ else
 define("DB", true);
 
 // Database Details
-define("DB_HOST", "37.48.109.246");
-define("DB_NAME", "ardjan");
-define("DB_USERNAME", "webshop");
-define("DB_PASSWORD", "!webshop!");
+define("DB_HOST", "");
+define("DB_NAME", "");
+define("DB_USERNAME", "");
+define("DB_PASSWORD", "");
 // If you create tables with lowercase and underscores, set this to true.
 define("DB_TABLES_LOWERCASE", true);
 
@@ -43,8 +43,8 @@ AutoLoader::$autoloadModels = array();
  *                    Constants                     *
  ****************************************************/
 
-define("TITLE", "EmmaPHP Framework");
-define("BASEPATH", "http://localhost/BoogleWeb/");
+define("TITLE", "App title");
+define("BASEPATH", "local domain");
 define("APPPATH", BASEPATH . "application");
 
 // If you want EmmaPHP to be in charge of authenticating a user.

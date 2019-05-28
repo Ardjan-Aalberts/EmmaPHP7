@@ -28,42 +28,6 @@ $routes = array(
             "protected" => false,
             "level" => array(0)
         ),
-    "bibliotheken" =>
-        array(
-            "controller" => "bibliotheken",
-            "protected" => false,
-            "level" => array(0)
-        ),
-    "bibliotheek" =>
-        array(
-            "controller" => "bibliotheek_controller",
-            "protected" => false,
-            "level" => array(0)
-        ),
-    "boeken" =>
-        array(
-            "controller" => "books_controller",
-            "protected" => false,
-            "level" => array(0)
-        ),
-    "boek" =>
-        array(
-            "controller" => "boek_controller",
-            "protected" => false,
-            "level" => array(0)
-        ),
-    "film" =>
-        array(
-            "controller" => "film_controller",
-            "protected" => false,
-            "level" => array(0)
-        ),
-    "films" =>
-        array(
-            "controller" => "films_controller",
-            "protected" => false,
-            "level" => array(0)
-        ),
     "404" =>
         array(
             "controller" => "four_oh_four",
